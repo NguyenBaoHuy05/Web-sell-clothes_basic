@@ -1,0 +1,21 @@
+
+.news{
+    padding-top: 130px;
+    width: 100%;
+}
+.news-content-item img{
+    width: 100%;
+}
+.news-content-item{
+    width: calc(25% - 12px);
+    text-align: center;
+    padding: 5px 12px;
+}
+.news-content-item a{
+    font-size: 13px;
+    font-family: Arial;
+    font-weight:600;
+}
+.news-content-item a:hover{
+    color: chocolate;
+}

@@ -1,0 +1,80 @@
+.product-top>i:hover{
+    color: yellow;
+}
+.product-top>i{
+    font-size: 20px;
+    padding:150px 0 0 50px;
+}
+.house1{
+    position: sticky;
+    top: 0;
+    display: none;
+    z-index: 3;
+    background-color: #dddddd;
+    width: 100%;
+}
+.house2{
+    position: sticky;
+    top: 0;
+    display: none;
+    z-index: 4;
+    background-color: #dddddd;
+    width: 100%;
+}
+.house3{
+    position: sticky;
+    top: 0;
+    display: none;
+    z-index: 5;
+    background-color: #dddddd;
+    width: 100%;
+}
+.house4{
+    position: sticky;
+    top: 0;
+    display: none;
+    z-index: 6;
+    background-color: #dddddd;
+    width: 100%;
+}
+.house5{
+    position: sticky;
+    top: 0;
+    display: none;
+    z-index: 7;
+    background-color: #dddddd;
+    width: 100%;
+}
+.house6{
+    position: sticky;
+    top: 0;
+    display: none;
+    z-index: 8;
+    background-color: #dddddd;
+    width: 100%;
+}
+.house7{
+    position: sticky;
+    top: 0;
+    display: none;
+    z-index: 9;
+    background-color: #dddddd;
+    width: 100%;
+}
+.house8{
+    position: sticky;
+    top: 0;
+    display: none;
+    z-index: 10;
+    background-color: #dddddd;
+    width: 100%;
+}
+#Slider{
+    margin: 30px 30px;
+}
+.open{
+    display: block;
+}
+.close{
+    display: none;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMDT</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../icon/fontawesome-free-6.4.2-web/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/logo1.png" width="200px" height="100px" alt="">
+            <img src="../img/ngoi-sao-gif.gif" alt="" width="200px" height="200px" style="position: absolute; left: 170px;top: 0px; margin-top: -30px;">
+        </div>
+        <div class="menu">
+            <li><a href="../html/index.html">Home</a></li>
+            <li><a href="../html/category.html">Áo</a>
+                <ul class="sub-menu">
+                    <li><a href="../html/category.html">Áo sơ mi</a></li>
+                    <li><a href="../html/categoryaothun.html">Áo thun</a></li>
+                    <li><a href="../html/categoryaocroptop.html">Áo croptop</a></li>
+                </ul>
+            </li>
+            <li><a href="../html/categorygiayluoi.html">Giày</a>
+                <ul class="sub-menu">
+                    <li><a href="../html/categorygiayluoi.html">Giày đá bóng</a></li>
+                    <li><a href="../html/categorygiaybata.html">Giày bata</a></li>
+                    <li><a href="../html/categorygiaycaogot.html">Giày cao gót</a></li>
+
+                </ul>
+            </li>
+            <li><a href="../html/categoryquanjean.html">Quần</a>
+                    <ul class="sub-menu">
+                        <li><a href="../html/categoryquanjean.html">Quần Jean</a></li>
+                        <li><a href="../html/categoryquanshort.html">Quần shorts</a></li>
+                        <li><a href="../html/categoryquanongrong.html">Quần ống rộng</a></li>
+                    </ul>
+            </li>
+            <li><a href="../html/categorydaychuyen.html">Trang sức</a>
+                <ul class="sub-menu">
+                    <li><a href="../html/categorydaychuyen.html">Dây chuyền</a></li>
+                    <li><a href="../html/categorynhan.html">Nhẫn</a></li>
+                    <li><a  href="../html/categorybongtai.html">Bông tai</a></li>
+                </ul>
+            </li>
+            <li><a href="../html/categorynuochoa.html">Mĩ phẩm</a>
+                <ul class="sub-menu">
+                    <li><a href="../html/categorynuochoa.html">Nước hoa</a></li>
+                    <li><a href="../html/categorykemduong.html">Kem dưỡng</a></li>
+                    <li><a href="../html/categorysuaruamat.html">Sữa rửa mặt</a></li>
+                </ul>
+            </li>
+            <li><a href="../html/tintuc.html">Tin tức</a>
+        </div>
+        <div class="others">
+            <li><input type="text" placeholder="Tìm kiếm"><i class="fas fa-search"></i></fa-search></li>
+            <li><a class="fa fa-paw" href="../html/pay.html"></a></li>
+            <li><a class="fa fa-user" href="../html/inform.html"></a></li>
+            <li><a class="fa fa-shopping-bag" href="../html/cart.html"></a></li>
+        </div>
+    </header>
+    <!-- ------------------------Delivery------------------ -->
+    <section id="Slider">
+        <section class="delivery">
+            <div class="container">
+                <div class="delivery-top-wrap">
+                    <div class="delivery-top">
+                        <div class="delivery-top-delivery delivery-top-item">
+                            <a href="../html/cart.html"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                        <div class="delivery-top-address delivery-top-item xanh">
+                            <a href="../html/delivery.html"><i class="fas fa-map-marker-alt"></i></a>
+                        </div>
+                        <div class="delivery-top-payment delivery-top-item">
+                            <a href="../html/pay.html"><i class="fas fa-money-check-alt"></i></a>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div class="container"> 
+                <div class="delivery-content row">
+                    <div class="delivery-content-left">
+                        <p>Vui lòng chọn địa chỉ giao hàng</p>
+                        <div class="delivery-content-left-dangnhap row">
+                            <i class="fas fa-sign-in-alt"> </i>
+                            <p>Đăng nhập (Nếu bạn đã có tài khoản của HMDT)</p>
+                        </div>
+                        <div class="delivery-content-left-khachle row">
+                            <input  checked name="loaikhach" type="radio"">
+                            <p><span style="font-weight: bold;">Khách lẻ</span> (Nếu bạn không muốn lưu lại thông tin)</p>
+                        </div>
+                        <div class="delivery-content-left-dangky row">
+                            <input name="loaikhach" type="radio"">
+                            <p><span style="font-weight: bold;">Đăng ký</span> (Tạo mới tài khoản cùng với thông tin bên dưới)</p>
+                        </div>
+                        <div class="delivery-content-left-input-top row">
+                            <div class="delivery-content-left-input-top-item">
+                                <label for="">Họ tên <span style="color: red;">*</span></label>
+                                <input type="text">
+                            </div>
+                            <div class="delivery-content-left-input-top-item">
+                                <label for="">Điện thoại <span style="color: red;">*</span></label>
+                                <input type="text">
+                            </div>
+                            <div class="delivery-content-left-input-top-item">
+                                <label for="">Tỉnh/Tp <span style="color: red;">*</span></label>
+                                <input type="text">
+                            </div>
+                            <div class="delivery-content-left-input-top-item">
+                                <label for="">Quận/Huyện <span style="color: red;">*</span></label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="delivery-content-left-input-bottom">
+                            <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-button row">
+                            <a href="../html/cart.html"><span>&#171;</span><p>Quay lại giỏ hàng</p></a>
+                            <a href="../html/pay.html"><button><p style="font-weight: bold;">THANH TOÁN VÀ GIAO HÀNG</p></button></a>
+                        </div>
+                    </div>
+                    <div class="delivery-content-right">
+                        <table>
+                            <tr>
+                                <th>Tên sản phẩm</th>
+                                <th>Giảm giá</th>
+                                <th>Số lượng</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                            <tr>
+                                <td>Áo sơ mi nam nữ tay ngắn nhung tăm</td>
+                                <td>-30%</td>
+                                <td>1</td>
+                                <td><p>590.000 <sup>đ</sup></p></td>
+                            </tr>
+                            <tr>
+                                <td>Áo sơ mi nam nữ tay ngắn nhung tăm</td>
+                                <td>-20%</td>
+                                <td>1</td>
+                                <td><p>690.000 <sup>đ</sup></p></td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: bold;" colspan="3">Tổng</td>
+                                <td style="font-weight: bold;"><p>690.000 <sup>đ</sup></p</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: bold;" colspan="3">Thuế VAT</td>
+                                <td style="font-weight: bold;"><p>69.000 <sup>đ</sup></p</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
+                                <td style="font-weight: bold;"><p>759s.000 <sup>đ</sup></p</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- --------------------------app----------------- -->
+    <section class="app-container row">
+        <div class="app-container1" style="width: 50%;">
+                <p> Tải ứng dụng <i>@HMDT</i></p>
+            <div class="app-google">
+                <a href="https://play.google.com/store/games?device=windows&pli=1"><img src="../img/Google-Play-Logo-PNG-Photos.png" ></a>
+                <a href="https://www.apple.com/app-store/"><img src="../img/appstore.png" alt=""></a>
+            </div>
+        </div>
+        <div class="app-container1" style="width: 50%;">
+                <p>Nhận thông tin HMDT</p>
+            <input type="email" name="" placeholder="Nhập email của bạn" id="">
+            <div class="footer-top">
+                <li><a href=""><img src="" alt=""></a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Tuyển dụng</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li> 
+                    <a href="" class="fab fa-facebook"></a>
+                    <a href="" class="fab fa-tiktok"></a>
+                    <a href="" class="fab fa-youtube"></a>
+                </li>
+            </div>
+        </div>
+        <div class="app-container1" style="width: 30%;">
+            <div class="footer-center">
+                <p>NHÓM 10 gồm những thành viên :</p>
+                <p>Nguyễn Bảo Huy</p>
+                <p> Nguyễn Đình Bình Minh</p>
+                <p>Phan Quốc Dũng</p>
+                <p>Nguyễn Thành Trung</p>
+                
+            </div>
+            <div class="footer-center" style="padding-top: 50px;">
+                <p>SĐT:0797xxxx57</p>
+                <p>Địa chỉ liên hệ:Phòng CTCC HSSV,Đại học sư phạm thành phố Hồ Chí Minh (cơ sở chính) <i class="fa-solid fa-hand-point-right"></i></p>
+            </div>
+        </div>
+        <div class="app-container1" style="width: 70%;">
+            <div id="map" style="width:100%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.650665478824!2d106.67740749678954!3d10.7613832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1b8a072901%3A0x2fb4502ebd044212!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTxrAgcGjhuqFtIFRow6BuaCBwaOG7
+                kSBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1700751761640!5m2!1
+                svi!2s" width="600px" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </section>
+    <div class="footer-bottom">
+        <b>Bản quyền thuộc về @nhóm10. Copy sẽ bị trừng phạt thích đáng 
+        </div></b>
+
+   
+</body>
+<script src="../js/index.js"></script>
+</html>

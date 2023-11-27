@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../icon/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>HMDT</title>
+       
+</head>
+<body>
+    <div id="wrapper" style="z-index: 1;">
+        <div id="form-login">
+            <h1 class="form-heading">Đăng nhập</h1>
+            <div class="kt" style="color: #fff;"></div>
+            <div class="form-group">
+                <i class="far fa-user"></i>
+                <input type="text" required id="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <i class="fas fa-key"></i>
+                <input type="password" required  id="password" placeholder="Password">
+                <div id="eye">
+                    <i class="far fa-eye"></i>
+                </div>
+            </div>
+            
+            <input type="submit" onclick="login()" value="Đăng nhập" class="form-submit">
+            <h5 style="color: #fff;">CHƯA CÓ TÀI KHOẢN: <a href="../html/register.html" style="color: aqua;">Đăng kí</a></h5>
+        </div>
+    </div>
+    
+     
+</body>
+<script src="../js/login.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script>
+    $(document).ready(function(){
+    $('#eye').click(function(){
+        $(this).toggleClass('open');
+        $(this).children('i').toggleClass('fa-eye-slash fa-eye');
+        if($(this).hasClass('open')){
+            $(this).prev().attr('type', 'text');
+        }else{
+            $(this).prev().attr('type', 'password');
+        }
+    });
+    
+});
+$(document).ready(function(){
+    $('#eye1').click(function(){
+        $(this).toggleClass('open');
+        $(this).children('i').toggleClass('fa-eye-slash fa-eye');
+        if($(this).hasClass('open')){
+            $(this).prev().attr('type', 'text');
+        }else{
+            $(this).prev().attr('type', 'password');
+        }
+    });
+    
+});
+</script>
+</html>
