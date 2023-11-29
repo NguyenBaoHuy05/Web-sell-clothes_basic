@@ -120,4 +120,8 @@ var timkiem1=function(){
 //     window.location.assign("http://127.0.0.1:5500/doanweb/html/category.html")
 //  }
 }
+if (localStorage.tkt=="hcmue"){
+    document.querySelector("#adminn").innerHTML='<a href="../admin/admin.html"><img src="../img/ngoi-sao-gif.gif" alt="" width="100px" height="100px" style="position: absolute;right:-10px;top: 0px;"></a>'
 
+
+}
