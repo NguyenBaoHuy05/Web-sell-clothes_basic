@@ -125,3 +125,15 @@ if (localStorage.tkt=="hcmue"){
 
 
 }
+var star=document.querySelector("#star")
+var n=0
+star.addEventListener("click",function(){
+    if (n==0){
+        document.querySelector(".work").classList.add("change")
+        n++
+    }
+    else {
+        document.querySelector(".work").classList.remove("change")
+        n=0
+    }
+})
