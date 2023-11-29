@@ -53,7 +53,7 @@ itemsliderbar.forEach(function(menu,index){
 // 
 // tìm kiếm
 var kqr=-1
-var chose=["aosomi","ao thun","ao crop top","quan jean","quan short","quan ong rong","giay bata","giay cao got","giay da bong","bong tai","nhan","day chuyen","kem duong","nuoc hoa","sua rua mat"];
+var chose=["mi","thun","crop","jean","short","rong","bata","got","da","tai","nhan","chuye","kem","hoa","mat"];
 var timkiem1=function(){
     const timkiem=document.getElementById("timkiem").value
     for (let i=0;i<15;i++){
