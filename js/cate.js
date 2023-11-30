@@ -277,7 +277,7 @@ if(chitiet5){
 }
 const butTon5=document.querySelector(".house5 .product-content-right-bottom-top")
 if(butTon5){
-    butTon.addEventListener("click", function(){
+    butTon5.addEventListener("click", function(){
         document.querySelector(".house5 .product-content-right-bottom-content-big").classList.toggle("activeB")
     })
     

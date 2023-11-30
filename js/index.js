@@ -13,6 +13,27 @@ else{
 }
 })
 
+// 
+var color=document.querySelector(".color")
+var star=document.querySelector("#star")
+var n=0
+star.addEventListener("click",function(){
+    if (n==0){
+        color.classList.add("mo")
+        console.log(n)
+        n++
+    }
+    else {
+        color.classList.remove("mo")
+        n=0
+    }
+})
+var outer=document.querySelector(".work")
+let colorBack = document.querySelector(".colorch");
+colorBack.value = "#ffffff"
+colorBack.addEventListener("change", function(){
+  outer.style.background = this.value;
+});
 
 // --------------------------nút tròn ỏ home với ảnh--------------------
 
@@ -53,58 +74,58 @@ itemsliderbar.forEach(function(menu,index){
 // 
 // tìm kiếm
 var kqr=-1
-var chose=["mi","thun","crop","jean","short","rong","bata","got","da","tai","nhan","chuye","kem","hoa","mat"];
+var chose=["áo sơ mi ao so mi","thun aothun","top crop","jean xanh","short sort ngắn ngan","ong rong baggy dai","bata vải vai","cao got","da bóng banh soocer sports","tai","nhan","chuyen day daychuyen","kemduong kem","hoa","mat"];
 var timkiem1=function(){
     const timkiem=document.getElementById("timkiem").value
     for (let i=0;i<15;i++){
-        let a=timkiem.indexOf(chose[i])
+        let a=chose[i].indexOf(timkiem)
         if(a!=-1){     
             kqr=0     
             switch(i){
                 case 0:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/category.html")
+                    window.location.assign("category.html")
                     break
                 case 1:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categoryaothun.html")
+                    window.location.assign("categoryaothun.html")
                     break
                 case 2:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categoryaocroptop.html")
+                    window.location.assign("categoryaocroptop.html")
                     break
                 case 3:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categoryquanjean.html")
+                    window.location.assign("categoryquanjean.html")
                     break
                 case 4:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categoryquanshort.html")
+                    window.location.assign("categoryquanshort.html")
                     break
                 case 5:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categoryquanongrong.html")
+                    window.location.assign("categoryquanongrong.html")
                     break
                 case 6:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categorygiaybata.html")
+                    window.location.assign("categorygiaybata.html")
                     break
                 case 7:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categorygiaycaogot.html")
+                    window.location.assign("categorygiaycaogot.html")
                     break
                 case 8:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categorygiayluoi.html")
+                    window.location.assign("categorygiayluoi.html")
                     break
                 case 9:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categorybongtai.html")
+                    window.location.assign("categorybongtai.html")
                     break
                 case 10:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categorynhan.html")
+                    window.location.assign("categorynhan.html")
                     break
                 case 11:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categorydaychuyen.html")
+                    window.location.assign("categorydaychuyen.html")
                     break
                 case 12:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categorykemduong.html")
+                    window.location.assign("categorykemduong.html")
                     break
                 case 13:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categorynuochoa.html")
+                    window.location.assign("categorynuochoa.html")
                     break
                 case 14:
-                    window.location.assign("http://127.0.0.1:5500/doanweb/html/categorysuaruamat.html")
+                    window.location.assign("categorysuaruamat.html")
                     break
                 default:
                     alert("Không tìm thấy")                           
@@ -117,7 +138,7 @@ var timkiem1=function(){
     }
 // let a=timkiem.indexOf('aosomi')
 // if(a!=-1){
-//     window.location.assign("http://127.0.0.1:5500/doanweb/html/category.html")
+//     window.location.assign("category.html")
 //  }
 }
 if (localStorage.tkt=="hcmue"){
@@ -125,15 +146,3 @@ if (localStorage.tkt=="hcmue"){
 
 
 }
-var star=document.querySelector("#star")
-var n=0
-star.addEventListener("click",function(){
-    if (n==0){
-        document.querySelector(".work").classList.add("change")
-        n++
-    }
-    else {
-        document.querySelector(".work").classList.remove("change")
-        n=0
-    }
-})

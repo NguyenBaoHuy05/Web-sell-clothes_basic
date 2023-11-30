@@ -1005,3 +1005,9 @@ footer{
 .change{
     background-color: #27fb67;
 }
+.color{
+    display: none;
+}
+.mo{
+    display: block;
+}
