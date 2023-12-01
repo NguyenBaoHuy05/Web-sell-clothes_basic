@@ -14,26 +14,7 @@ else{
 })
 
 // 
-var color=document.querySelector(".color")
-var star=document.querySelector("#star")
-var n=0
-star.addEventListener("click",function(){
-    if (n==0){
-        color.classList.add("mo")
-        console.log(n)
-        n++
-    }
-    else {
-        color.classList.remove("mo")
-        n=0
-    }
-})
-var outer=document.querySelector(".work")
-let colorBack = document.querySelector(".colorch");
-colorBack.value = "#ffffff"
-colorBack.addEventListener("change", function(){
-  outer.style.background = this.value;
-});
+
 
 // --------------------------nút tròn ỏ home với ảnh--------------------
 
@@ -141,8 +122,28 @@ var timkiem1=function(){
 //     window.location.assign("category.html")
 //  }
 }
-if (localStorage.tkt=="hcmue"){
+if (localStorage.tkt=="hcmue" && localStorage.mkt=="123"){
     document.querySelector("#adminn").innerHTML='<a href="../admin/admin.html"><img src="../img/ngoi-sao-gif.gif" alt="" width="100px" height="100px" style="position: absolute;right:-10px;top: 0px;"></a>'
 
 
 }
+var color=document.querySelector(".color")
+var star=document.querySelector("#star")
+var n=0
+star.addEventListener("click",function(){
+    if (n==0){
+        color.classList.add("mo")
+        console.log(n)
+        n++
+    }
+    else {
+        color.classList.remove("mo")
+        n=0
+    }
+})
+var outer=document.querySelector(".work")
+let colorBack = document.querySelector(".colorch");
+colorBack.value = "#ffffff"
+colorBack.addEventListener("change", function(){
+  outer.style.background = this.value;
+});
