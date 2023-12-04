@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HMDT</title>
     <link rel="shortcut icon" type="image/png" href="../img/Logo-DH-Su-Pham-TPHCM-HCMUE.webp">
+    <link rel="stylesheet" href="../css/reply.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../icon/fontawesome-free-6.4.2-web/css/all.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="../img/logo1.png" width="200px" height="100px" alt="">
+            <img src="../img/logo1.png" width="200px" height="100px" alt="" style="position: relative;">
             <img id="star" src="../img/ngoi-sao-gif.gif" alt="" width="200px" height="200px" style="position: absolute; left: 170px;top: 0px; margin-top: -30px;">
 
         </div>
@@ -53,53 +54,79 @@
                     <li><a href="../html/categorysuaruamat.html">Sữa rửa mặt</a></li>
                 </ul>
             </li>
-            <li><a href="../html/tintuc.html">Tin tức</a>
+            <li><a href="../html/tintuc.html">Tin tức</a></li>
+            
         </div>
         <div class="others">
             <li><input type="text" placeholder="Tìm kiếm" id="timkiem"><i class="fas fa-search" onclick="timkiem1()"></i></li>
             <li><a class="fa fa-paw" href="../html/pay.html"></a></li>
             <li><a class="fa fa-user" href="../html/inform.html"></a></li>
             <li><a class="fa fa-shopping-bag" href="../html/cart.html"></a></li>
+            <li><a href="../html/login.html " id="adminn" >Thoát</a></li>
         </div>
     </header>
+    <section class="review" id="review">
 
-    
-    <section id="Slider">
-        <div class="inform-content row">
-            <div class="inform-content-left">
-                <img src="../img/anhHuy.jpg" alt="" id="anh">
+        <h1 class="heading">customer's <span>review</span></h1>
+
+        <div class="box-container">
+            
+            <div class="box">
+                <img src="../img/quoctehoa.gif" width="250" height="40" class="quocte">
+                <p>Chất lượng! Nhiều shop làm tui thấy hài lòng về chất lượng cũng như độ tin cậy. Sản phẩm rất hợp với dáng của tôi. Cho 5 sao</p>
+                <img src="../img/anhHuy.jpg" alt=""width="100" height="150" class="user">
+                <h3>Dr.Huy</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
-            <div class="inform-content-right">
-                <fieldset>
-                    <legend>
-                        <h3>THÔNG TIN CÁ NHÂN</h3>
-                    </legend>
-                    <table>
-                        <tr>
-                            <td>Họ tên          </td>
-                            <th id="ten"></th>
-                        </tr>
-                        <tr>
-                            <td>SĐT          </td>
-                            <th id="sdt"></th>
-                        </tr>
-                        <tr>
-                            <td>Email          </td>
-                            <th id="email1"></th>
-                        </tr>
-                        <tr>
-                            <td>Mã tài khoản</td>
-                            <th>0468346367689</th>
-                        </tr>
-                        <tr>
-                            <td>Đăng kí thành viên</td>
-                            <th>Không</th>
-                        </tr>
-                    </table>
-                </fieldset>
+            <div class="box">
+                <img src="../img/quoctehoa.gif" width="250" height="40"alt="" class="quocte">
+                <p>Áo đẹp, trang web hoàn chỉnh, rất thu hút khách hàng. Theo tôi, Sản phẩm nên nhập nhiều hơn để đa dạng hóa được sản phẩm</p>
+                <img src="../img/trung.png" alt=""width="100" height="150" class="user">
+                <h3>Dr.Trung</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
             </div>
+            <div class="box">
+                <img src="../img/quoctehoa.gif" width="250" height="40"alt="" class="quocte">
+                <p>Web đẹp, vừa mắt. Chất liệu vải ok, mềm mại thoáng mát. Thích nhất là hợp với size mập của tôi nha!</p>
+                <img src="../img/dung.png" alt=""width="100" height="150" class="user">
+                <h3>Ms.Dũng</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div> 
+            <div class="box">
+                <img src="../img/quoctehoa.gif" width="250" height="40"alt="" class="quocte">
+                <p>Web có nhiều ảnh rất rất đẹp, tôi rất ưng ý! Sản phẩm hợp gu thời trang của tui, mong web sẽ ngày càng phát triển</p>
+                <img src="../img/minh.jpg" alt=""width="100" height="150" class="user">
+                <h3>Dr.Minh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div> 
         </div>
+       
     </section>
+   
     <!-- --------------------------app----------------- -->
     <section class="app-container row">
         <div class="app-container1" style="width: 50%;">
@@ -126,9 +153,9 @@
         </div>
         <div class="app-container1" style="width: 30%;">
             <div class="footer-center">
-                <a href="https://www.facebook.com/HCMUE.VN"> <p>Về chúng tôi</p></a>
-                <a href="../html/reply.html"> <p>Phản hồi của người dùng</p></a>
-             </div>
+               <a href="https://www.facebook.com/HCMUE.VN"> <p>Về chúng tôi</p></a>
+               <a href="../html/reply.html"> <p>Phản hồi của người dùng</p></a>
+            </div>
             <div class="footer-center" style="padding-top: 50px;">
                 <p>SĐT:0797xxxx57</p>
                 <p>Địa chỉ liên hệ:Phòng CTCC HSSV,Đại học sư phạm thành phố Hồ Chí Minh (cơ sở chính) <i class="fa-solid fa-hand-point-right"></i></p>
@@ -151,4 +178,5 @@
 </body>
 <script src="../js/index.js"></script>
 <script src="../js/login.js"></script>
+
 </html>

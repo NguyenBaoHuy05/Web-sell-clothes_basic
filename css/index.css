@@ -88,6 +88,8 @@ header.sticky{
     top: 80px;
     background-color: yellow;
 }
+/*  */
+/*  */
 .menu > li>a{
     font-size: 20px;
     font-weight: bold;
@@ -235,7 +237,9 @@ footer{
 .footer-bottom b{
     line-height: 50px;
 }
-
+.footer-center a:hover p{
+    color: yellow;
+}
 
 
 .app-container{
