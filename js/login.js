@@ -21,13 +21,12 @@ var login=function(){
     let qua=document.getElementById("username").value
     let qua1=document.getElementById("password").value
     if (qua==localStorage.tkt && qua1==localStorage.mkt || (qua=="hcmue" && qua1=="123")){
-        window.location.assign("index.html")
-
+        window.location.assign("../admin/admin.html")
     }
    else{
         alert("Sai tên tài khoản hoặc mật khẩu")
     }
 }
-document.querySelector("#ten").innerHTML=localStorage.tkt
-document.querySelector("#sdt").innerHTML=localStorage.sdtt
-document.querySelector("#email1").innerHTML=localStorage.emt
+document.querySelector("#ten").innerText=localStorage.tkt
+document.querySelector("#sdt").innerText=localStorage.sdtt
+document.querySelector("#email1").innerText=localStorage.emt

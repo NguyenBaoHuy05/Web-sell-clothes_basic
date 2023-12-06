@@ -123,7 +123,7 @@ var timkiem1=function(){
 //  }
 }
 if (localStorage.tkt=="hcmue" && localStorage.mkt=="123"){
-    document.querySelector("#adminn").innerHTML='<a href="../admin/admin.html"><img src="../img/ngoi-sao-gif.gif" alt="" width="100px" height="100px" style="position: absolute;right:-10px;top: 0px;"></a>'
+    document.querySelector("#adminn").innerText='<a href="../admin/admin.html"><img src="../img/ngoi-sao-gif.gif" alt="" width="100px" height="100px" style="position: absolute;right:-10px;top: 0px;"></a>'
 
 
 }
@@ -133,7 +133,6 @@ var n=0
 star.addEventListener("click",function(){
     if (n==0){
         color.classList.add("mo")
-        console.log(n)
         n++
     }
     else {
