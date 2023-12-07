@@ -20,8 +20,13 @@ var signup=function(){
 var login=function(){
     let qua=document.getElementById("username").value
     let qua1=document.getElementById("password").value
-    if (qua==localStorage.tkt && qua1==localStorage.mkt || (qua=="hcmue" && qua1=="123")){
+    if (qua==localStorage.tkt && qua1==localStorage.mkt || qua=="hcmue" && qua1=="123"){
+        if(qua=="hcmue" && qua1=="123"){
         window.location.assign("../admin/admin.html")
+        }
+        else{
+            window.location.assign("../html/index.html")
+        }
     }
    else{
         alert("Sai tên tài khoản hoặc mật khẩu")
