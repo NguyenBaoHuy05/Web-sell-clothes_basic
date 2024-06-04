@@ -1,2 +1,1 @@
-# Web bán hàng đơn giản, chưa dùng php với framework
-
+# Web-sell-clothes_basic
